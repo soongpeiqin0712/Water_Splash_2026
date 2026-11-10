@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 120" role="img" aria-labelledby="title">
+  <title id="title">Colourful water blaster spraying water</title>
+  <defs>
+    <linearGradient id="body" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff47a"/>
+      <stop offset=".48" stop-color="#ff70b5"/>
+      <stop offset="1" stop-color="#8d75ff"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#62d8ff" stop-opacity=".2"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#281044" stroke-linejoin="round" stroke-width="5">
+    <path d="M22 39h112a16 16 0 0 1 16 16v14a16 16 0 0 1-16 16H22A17 17 0 0 1 5 68V56a17 17 0 0 1 17-17Z" fill="url(#body)"/>
+    <path d="M134 47h48v24h-48" fill="#8de8ff"/>
+    <path d="M178 52h24v14h-24" fill="#fff47a"/>
+    <path d="M70 82h42l-5 30H77Z" fill="#62d8ff"/>
+    <path d="M84 82V68h18v14" fill="#ffb24c"/>
+    <path d="M19 48h37" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="7"/>
+  </g>
+  <path d="M204 58c7-8 12-10 15-9m-15 18c8 2 11 5 13 10m-37-23 5-10" fill="none" stroke="url(#water)" stroke-linecap="round" stroke-width="6"/>
+  <circle cx="191" cy="38" r="4" fill="#fff"/>
+  <circle cx="212" cy="83" r="3" fill="#ffe45e"/>
+</svg>
